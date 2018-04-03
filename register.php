@@ -2,7 +2,7 @@
 
 session_start();
 
-$db = mysqli_connect("localhost", "phpmyadmin", "Hazel355", "authentication");
+$db = mysqli_connect("localhost", "", "", "authentication");
 if (isset($_POST['register_btn'])){
     $username =mysqli_real_escape_string($db,$_POST['username']);
     $email =mysqli_real_escape_string($db,$_POST['email']);
