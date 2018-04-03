@@ -1,0 +1,39 @@
+body{
+	background:url(ocean.jpg);
+	background-size:cover;
+	background-position:center;
+}
+#container{
+	margin:3px;
+	text-align:left;
+	font-size:30px;
+	width:70%;
+	height:20%;
+	color:white;
+	
+}
+#content{
+	
+	background:black;
+	color:white;
+	text-align:center;
+	font: italic bold 20px/30px Georgia, serif;
+	opacity:.7;
+}
+
+#banner a{
+
+	width:10%;
+	height:7%;
+	float:right;
+	color:red;
+	text-decoration:none;
+	padding:5px;
+	font-size:30px;
+	display:block;
+}
+#banner a:hover{
+	cursor:pointer;
+	background-color:green;
+	
+}

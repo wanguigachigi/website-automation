@@ -1,0 +1,67 @@
+body{
+	background: url(lake.jpg);/*image downloaded for free from unsplash.com*/
+	background-size:cover;
+	background-postion:center;
+	font-family: centurygothic;
+	text-align:center;
+}
+form{
+	height:50%;
+	width: 30%;
+	margin:0px auto;
+	padding:20px;
+	background: transparent;
+	border: 3px solid white;
+	border-radius: 30px 30px 30px 30px;
+	color: white;
+	font-style:inherit;
+}
+h1{
+	margin:30px auto ;
+	text-align: center;
+	color: white;
+	border:2px solid darkorange;
+	border-radius:10px 10px 10px 10px;
+	padding:20px;
+}
+label{
+	margin:3px;
+	text-align:left;
+}
+input{
+	margin:2px;
+	height:40px;
+	width:80%;
+	padding:5px 10px;
+	border-radius:5px;
+	font-size:16px;
+	border:1px solid;	
+}
+btn{
+	padding: 10px;
+	font-size: 20px;
+	color:black;
+	border-radius:5px;
+	position:left;
+	border: none;
+	border-radius: 5px;	
+}
+input[type="submit"]:hover{
+	background-color:darkorange;
+    cursor: pointer;
+    color: black;
+}
+a{
+	text-align:center;
+	padding:3px;
+	text-decoration: none;
+	display:block;
+	font-style:inherit;
+	font-size:30px;
+	color:black;
+}
+a:hover{
+    color:darkorange;
+    cursor: pointer;
+  
+}
