@@ -1,5 +1,6 @@
 # website-automation
-website automation using selenium.\n
+website automation using selenium.
 
-people register and get mails notifying them of initiatives
-automated send-mails to registered people
+People register and get mails notifying them of initiatives.
+
+Automated send-mails to registered people.
